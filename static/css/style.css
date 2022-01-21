@@ -1,0 +1,42 @@
+.main{
+    background-image: url('../img/back.jpg');
+    background-size:contain;
+    height: 100vh;
+}
+.about{
+    background-color: transparent;
+    color:#6AADFB;
+    border: none;
+    position: absolute;
+    left: 14%;
+    top: 9%;
+    font-size: 27px;
+    font-weight: 800;
+}
+.start{
+    background-color: transparent;
+    color:#6AADFB;
+    border: none;
+    position: absolute;
+    left: 52%;
+    top: 18%;
+    font-size: 27px;
+    font-weight: 800;
+}
+.sec{
+    text-align: right;
+}
+.run-boy{
+    width: 231px !important;
+    height: auto;
+    position: absolute;
+    bottom: 105px;
+    animation-name: run;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes run {
+    0% {left: -10%;}
+    50% {left: 45%;}
+    100%{left:85%; display:none;}
+  }
